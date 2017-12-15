@@ -4,6 +4,9 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
 
+var apiroutes = require("./routes/apiroutes.js")(app);
+var htmlroutes = require("./routes/htmlroutes.js")(app);
+
 var apiroutes = require("./routes/apiroutes.js");
 var htmlroutes = require("./routes/htmlroutes.js");
 
